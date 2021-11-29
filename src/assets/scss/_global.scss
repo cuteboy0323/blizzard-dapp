@@ -1,0 +1,26 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0) 48%, rgba(255, 255, 255, 0.005) 50%, rgba(255, 255, 255, 0) 52%), linear-gradient(-45deg, rgba(255, 255, 255, 0) 48%, rgba(255, 255, 255, 0.005) 50%, rgba(255, 255, 255, 0) 52%);
+    background-size: 8px 8px;
+    background-color: #202231;
+    margin: 0;
+}
+
+#app-root {
+    width: 100%;
+    height: 100%;
+}
+
+
+@keyframes rhs {
+    0% {
+        transform: rotate(0)
+    }
+    50% {
+        transform: rotate(180deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
